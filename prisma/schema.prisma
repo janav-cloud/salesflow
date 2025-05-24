@@ -1,0 +1,61 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String  @id @default(uuid())
+  company   String
+  email     String  @unique
+  password  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model PasswordResetToken {
+  id        String  @id @default(uuid())
+  email     String  @unique
+  token     String  @unique
+  expiresAt DateTime
+}
+
+model Deal {
+  id           String   @id @default(uuid())
+  name         String
+  stage        String
+  probability  Float    // AI prediction
+  value        Float
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model Task {
+  id        String   @id @default(uuid())
+  title     String
+  dueDate   DateTime
+  priority  String
+  status    String
+  dealId    String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Alert {
+  id        String   @id @default(uuid())
+  message   String
+  severity  String
+  dealId    String?
+  createdAt DateTime @default(now())
+}
+
+model Interaction {
+  id        String   @id @default(uuid())
+  type      String
+  content   String
+  dealId    String?
+  createdAt DateTime @default(now())
+}

@@ -1,0 +1,104 @@
+�   .env.local
+�   .gitignore
+�   folder.txt
+�   jsconfig.json
+�   next.config.mjs
+�   package-lock.json
+�   package.json
+�   postcss.config.mjs
+�   README.md
+�                    
++---app
+�   �   favicon.ico
+�   �   globals.css
+�   �   layout.jsx
+�   �   page.jsx
+�   �   
+�   +---api
+�   �   +---auth
+�   �   �   +---forgot-password
+�   �   �   �       route.js
+�   �   �   �       
+�   �   �   +---reset-password
+�   �   �   �       route.js
+�   �   �   �       
+�   �   �   +---signup
+�   �   �   �       route.js
+�   �   �   �       
+�   �   �   +---[...nextauth]
+�   �   �           route.js
+�   �   �           
+�   �   +---leads
+�   �   �       process.js
+�   �   �       
+�   �   +---upload
+�   +---components
+�   �       Footer.jsx
+�   �       Navbar.jsx
+�   �       
+�   +---dashboard
+�   �   �   page.jsx
+�   �   �   
+�   �   +---components
+�   �   �       Sidebar.jsx
+�   �   �       
+�   �   +---emails
+�   �   �       page.jsx
+�   �   �       
+�   �   +---leads
+�   �           page.jsx
+�   �           
+�   +---forgot-password
+�   �       page.jsx
+�   �       
+�   +---login
+�   �       page.jsx
+�   �       
+�   +---reset-password
+�   �       page.jsx
+�   �       
+�   +---signup
+�           page.jsx
+�           
++---fast-api-service
+�   �   lead_scoring_model.pkl
+�   �   main.py
+�   �   requirements.txt
+�   �   scaler.pkl
+�   �   
++---lib
+�       mailer.js
+�                  
++---prisma
+�   �   schema.prisma
+�   �   
+�   +---migrations
+�       �   migration_lock.toml
+�       �   
+�       +---20250314111333_auth_setup
+�       �       migration.sql
+�       �       
+�       +---20250314115634_add_password_reset
+�       �       migration.sql
+�       �       
+�       +---20250314125136_add_unique_email_to_password_reset
+�               migration.sql
+�               
++---public
+�   �   file.svg
+�   �   globe.svg
+�   �   next.svg
+�   �   vercel.svg
+�   �   window.svg
+�   �   
+�   +---assets
+�           SalesFlow-blue.svg
+�           SalesFlow-green.svg
+�           SF-black.svg
+�           SF-blue.svg
+�           SF-green.svg
+�           SF-white.svg
+�           
++---uploads
++---utils
+        auth.js

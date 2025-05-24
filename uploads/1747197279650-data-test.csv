@@ -1,0 +1,21 @@
+Lead_ID,Company_Name,Company_Client_Email,Email_Open_Rate,Click_Through_Rate,Past_Purchases,Response_Time,Marketing_Spend,Engagement_Score,Lead_Score,Lead_Source,Industry,Demo_Scheduled,Converted
+1,Pearson Specter,duajh@rknec.edu,0.46,0.98,4,70,3893,4.46,74.61,Cold Email,Hospitality,0,1
+2,Vandelay Industries,pandeak_1@rknec.edu,0.67,0.42,2,35,5200,3.78,65.40,Webinar,Technology,1,0
+3,Prestige Worldwide,tiwarias_4@rknec.edu,0.55,0.61,5,48,6730,4.02,72.15,Referral,Finance,1,1
+4,Bluth Company,bhatiab@rknec.edu,0.71,0.57,1,82,4400,3.12,54.77,LinkedIn,Education,0,0
+5,Pied Piper,naiduad@rknec.edu,0.49,0.33,3,60,3800,4.56,69.88,Cold Email,Technology,1,1
+6,Initech,yemprediwaran@rknec.edu,0.64,0.76,2,40,5800,4.12,60.34,Webinar,Finance,0,0
+7,Sterling Cooper,vyasav_1@rknec.edu,0.50,0.68,0,90,3000,2.78,42.15,Referral,Education,1,0
+8,Strickland Propane,rajurkarap@rknec.edu,0.57,0.84,3,52,4700,4.44,75.22,LinkedIn,Hospitality,1,1
+9,Cheers,singha_9@rknec.edu,0.45,0.49,6,25,6900,3.67,68.30,Cold Email,Technology,0,0
+10,Central Perk,singhbs_1@rknec.edu,0.73,0.72,4,34,8500,4.81,81.55,Referral,Education,1,1
+11,MacLaren's Pub,nighotds@rknec.edu,0.39,0.22,1,95,2200,2.90,47.10,Webinar,Finance,0,0
+12,Duff Beer,muleygm@rknec.edu,0.51,0.66,0,55,6400,3.88,63.24,LinkedIn,Technology,0,1
+13,Monk's Cafe,guptagv@rknec.edu,0.60,0.43,3,45,5300,4.15,70.33,Cold Email,Education,1,0
+14,Los Pollos Hermanos,choubegv@rknec.edu,0.66,0.75,5,30,7200,4.62,77.88,Referral,Finance,1,1
+15,Goliath National Bank,taorihm_1@rknec.edu,0.58,0.54,2,67,4600,3.94,58.70,LinkedIn,Technology,0,0
+16,Wayne Enterprises,dwivediha@rknec.edu,0.48,0.37,4,80,6100,3.22,61.45,Webinar,Education,0,0
+17,Stark Industries,chandaranahp@rknec.edu,0.69,0.88,3,20,7100,4.70,76.89,Referral,Finance,1,1
+18,Oceanic Airlines,weleir@rknec.edu,0.52,0.45,0,68,3100,2.95,40.22,Cold Email,Technology,0,0
+19,Hooli,javeriia@rknec.edu,0.63,0.61,2,33,5400,4.09,64.88,Webinar,Education,1,0
+20,Dunder Mifflin,nakhatesn_1@rknec.edu,0.55,0.51,3,75,6000,4.23,70.11,Referral,Hospitality,1,1
